@@ -27,7 +27,7 @@ python train.py --dataset cora --gnnlayers 8 --upth_st 0.011 --lowth_st 0.1 --up
 
 To reproduce the node clustering experiment results, please follow our hyper-parameter settings:
 
-| Dataset  | gnnlayers | upth_st | lowth_st | upth_ed | lowth_ed |
+| Dataset  | gnnlayers | upth_st | upth_ed  | lowth_st| lowth_ed |
 | :------- | --------- | ------- | -------- | ------- | -------- |
 | Cora     | 8         | 0.0110  | 0.0010   | 0.1     | 0.5      |
 | Citeseer | 3         | 0.0015  | 0.0010   | 0.1     | 0.5      |
